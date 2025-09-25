@@ -19,12 +19,12 @@ module.exports = (sequelize, Sequelize) => {
             
         },
         estado: {
-            type: Sequelize.ENUM('pendiente', 'en_proceso', 'completada'),
-            
+            type: Sequelize.STRING,
+
         },
         fecha_creacion: {
             type: Sequelize.DATE,
-            
+           
         },
         fecha_vencimiento: {
             type: Sequelize.DATE,
