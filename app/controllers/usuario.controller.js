@@ -12,7 +12,6 @@ exports.create = (req, res) => {
     }
 
     const usuario = {
-        id_usuario: req.body.id_usuario,
         nombre: req.body.nombre,
         correo: req.body.correo,
         contrasena: req.body.contrasena,
