@@ -3,8 +3,9 @@ module.exports = (sequelize, Sequelize) => {
 
         id_tarea: {
             type: Sequelize.INTEGER,
-            autoIncrement: true,
-            primaryKey: true
+            primaryKey: true,
+            autoIncrement: true
+            
         },
 
         id_usuario: {
